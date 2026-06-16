@@ -1,0 +1,6 @@
+{
+  "name": "Zari Multi-Vendor Fashion Marketplace",
+  "description": "A premium multi-vendor fashion marketplace and architectural blueprints for Indian dress designers, boutique owners, and buyers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

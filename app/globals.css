@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  --font-serif: var(--font-serif), Georgia, serif;
+  
+  --color-brand-50: #FAF9F6; /* Luxury Ivory Cream Background */
+  --color-brand-100: #EAE8E4; /* Warm Light Muted Clay */
+  --color-brand-200: #E5E3DF; /* Soft Natural Linen */
+  --color-brand-500: #8B4513; /* Artistic SaddleBrown Earth Accent */
+  --color-brand-600: #2D2926; /* Signature Deep Charcoal Charcoal */
+  --color-brand-800: #151312; /* Rich Dark Wood */
+  --color-gold-400: #E5C158; /* Muted Champagne Zari Gold */
+  --color-gold-500: #C09A45;
+  --color-gold-600: #8B4513;
+}
+
+@layer base {
+  body {
+    @apply selection:bg-[#EAE8E4] selection:text-[#2D2926] bg-[#FAF9F6] text-[#2D2926];
+  }
+}
+
